@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    background: url(/front/img/bg-footer.jpg);
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content__footer{
+text-align: center
+}
+
+.img__footer{
+    height: 200px;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.form-label{
+    color: #ffffff;
+}
+
+
+
+#exampleFormControlTextarea1{
+    resize: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+}

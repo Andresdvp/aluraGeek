@@ -1,0 +1,14 @@
+.contenido{
+   border: 1px solid #000000;
+    height: 50rem;
+    width: 80rem;
+    margin-top: 15px;
+   padding: 20px;
+   overflow: hidden;
+   z-index: 1;
+}
+
+.contenido-producto{
+   padding: 30px;
+   height: 100%;
+}

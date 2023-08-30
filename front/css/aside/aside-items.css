@@ -1,0 +1,9 @@
+.aside__items{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: var(--texto_otro);
+}
+
+.aside__items i{
+    margin-right: 10px;
+}

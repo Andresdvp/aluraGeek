@@ -1,0 +1,11 @@
+.titulo__ofertas{
+    font-family: var(--texto_menu);
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all .7s;
+}
+
+.titulo__ofertas:hover{
+    color: rgb(116, 236, 110);
+ 
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/a972393be4.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Space+Mono&display=swap" rel="stylesheet">
+    
+        <title>Lo que nececitas</title>
+        <link rel="icon" href="/front/img/icono-pestaña.png">
+        <link rel="stylesheet" href="/front/css/style.css">
+   
+    
+    </head>
+    
+<body>
+
+    <header class="header">
+        <div class="cabecera">
+            <a href="/index.html"> <img src="/front/img/logo_small.png" alt="logo de lo que nececitas" class="logo"></a>
+            <input class="busqueda" type="search" placeholder="Search" name="" id="">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="">Inicio</a></li>
+
+                <li class="menu__item"><a href="">Categorias</a>
+                    <ul class="sub__menu">
+                        <li class="sub__item"><a href="">Electronica</a></li>
+
+                        <li class="sub__item"><a href="">Hogar</a></li>
+
+                        <li class="sub__item"><a href="">Moda</a></li>
+
+                        <li class="sub__item"><a href="">Accesorios</a></li>
+
+                    </ul>
+
+                </li>
+
+
+                <li class="menu__item"><a href="./prueba.html">Ofertas</a></li>
+
+
+                <li class="menu__item"><a href="#">Carrito</a></li>
+
+
+                <li class="menu__item"><a href="">Servivio al cliente<a>
+                            <ul class="sub__menu">
+                                <li class="sub__item"><a href="#contacto">Contacto</a></li>
+
+                                <li class="sub__item"><a href="">Preguntas Frecuentes</a></li>
+
+                            </ul>
+
+                </li>
+
+                <li class="menu__item"><a href="">Acerca de nosotros</a>
+
+                    <ul class="sub__menu">
+                        <li class="sub__item"><a href="">Nuestra Historia</a></li>
+
+                        <li class="sub__item"><a href="">Equipo</a></li>
+
+                        <li class="sub__item"><a href="">Valores</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="menu__item"><a href="">Politica y privacidad</a>
+
+                    <ul class="sub__menu">
+
+                        <li class="sub__item"><a href="">Terminos y condiciones</a></li>
+
+                        <li class="sub__item"><a href="">Devoluciones y Reembolsos</a></li>
+                    </ul>
+
+                </li>
+
+
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+        <main class="main-producto">
+        
+    
+            <section class="contenido contenido-producto">
+               
+                <div class="cards" data-todo></div>
+            </section>
+    
+        </main>
+
+
+        <footer class="footer" id="contacto">
+            <div class="content__footer">
+                <img class="img__footer" src="/front/img/logo-lobo-blanco.png">
+                <p class="copyright">
+                    &copy copyright tienda en linea Lo que Necesitas
+                    <br>
+                    Desarrollado por Andres Valencia -2023
+                </p>
+            </div>
+            <div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </footer>
+
+
+    <script type="module" src="/back/controllers/verProducto-controller.js" ></script>
+</body>

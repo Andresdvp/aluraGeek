@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo que nececitas</title>
+    <link rel="icon" href="/front/img/icono-pestaña.png">
+    <link rel="stylesheet" href="/front/css/login/login.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+</head>
+<body>
+ <div class="box">
+   
+        <div class="content__formulario">
+            <form class="formulario__login" data-login>
+
+                <h4 class=" titulo mb-4 pb-3">Log In</h4>
+
+                <div class="form__group">
+                    <input type="email" name="logemail" class="form-style" placeholder="Your Email" data-email   required>
+                    <i class="input-icon uil uil-at"></i>
+                </div>
+
+                <div class="form__group mt-2"> 
+                    <input type="password" name="logpass" class="form-style" placeholder="Your Password" data-password required>
+                    <i class="input-icon uil uil-lock-alt"></i>
+                </div>
+
+                <div class="olvide__password">
+                    <a href="#">I forgot my password</a>
+                    <br>
+                    <a href="/front/pages/registro-usuario.html">Sign up</a>
+                </div>
+                <button type="submit" class="full-rounded">
+                    <span>Submit</span>
+                    <div class="border full-rounded"></div></button>
+
+               
+            </form>
+        </div>
+    
+</div>
+<script type="module" src="/back/usuarios/usuario.js"></script>
+
+</body>
+
+</html>

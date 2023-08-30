@@ -1,0 +1,53 @@
+.banner{
+    width: 100%;
+    position: relative;
+ 
+}
+.capa{
+     background:linear-gradient(rgba(5, 7, 12, 0.563),rgba(5,7,12,0.364));
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 2;
+}
+
+.banner__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner-div{
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    left: 10%; 
+    height: 150px;
+    z-index: 10;
+    
+}
+.banner__titulo{
+    font-family: var(--texto_menu);
+}
+
+.banner__parrafo{
+    font-family: var(--texto_menu);
+    margin-bottom: 30px;
+}
+  
+.banner__btn{
+    padding: 10px;
+   
+    background: rgb(60, 151, 250);
+    border-radius: 5px;
+    
+}
+.banner a{
+    color: #fff;
+}
+
+.banner__btn:hover{
+    transition: all 0.5s;
+    background: rgb(2, 84, 172);     
+}
+

@@ -1,0 +1,115 @@
+.body-galerias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 35px;
+   margin-top: 70px;
+   flex-direction: column;
+
+}
+
+
+.galerias {
+
+    max-width: 1400px;
+    width: 100%;
+    height: 500px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.arrow{
+    position: absolute;
+top: 0;
+right: 5%;
+z-index: 20;
+display: flex;
+width: 80px;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+.galerias span {
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+    z-index: 10;
+}
+.carousel{
+   
+    padding: 10px;
+}
+.li-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 1px 2px 5px #000017;
+    width: 15rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 10px;
+   border-radius: 5px;
+}
+.card-inicial img{
+border-radius: 10px;
+}
+.galerias span:first-child {
+    left: -22px;
+}
+
+.galerias span:last-child {
+    right: -22px;
+}
+
+
+.li-card .img img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.galerias .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4) - 12px);
+    gap: 16px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+   
+}
+
+.img-inicial img{
+    width: 285px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.card-galeria{
+    font-family: var(--texto_menu);
+    text-align: justify;
+    font-size: 14px;
+    margin: 15px 10px 0 10px;
+    color: #000017;
+    text-shadow: 2px 2px 5px #13a8fe;
+
+}

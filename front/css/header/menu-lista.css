@@ -1,0 +1,26 @@
+.menu__lista{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sub__menu{
+    list-style: none;
+    position: relative;
+    left: -30px;
+    transition: all 1s;
+    z-index: 100;
+}
+
+.menu__item .sub__menu{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+    
+
+}
+
+.menu__lista .menu__item:hover > .sub__menu{
+    display: block;
+    
+}

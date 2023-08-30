@@ -1,0 +1,52 @@
+@import "./header.css";
+@import "./banner.css";
+@import"./main.css";
+@import "./header/cabecera.css";
+@import "./header/logo.css";
+@import "./header/busqueda.css";
+@import "./header/icono-busqueda.css";
+@import "./header/menu.css";
+@import "./header/menu-lista.css";
+@import "./header/menu-item.css";
+@import "./header/cabecera.css";
+@import "./aside.css";
+@import "./aside/aside-titulo.css";
+@import "./aside/aside-titulo.css";
+@import "./aside/aside-titulo.css";
+@import "./aside/aside-items.css";
+@import "./contenido/contenido.css";
+@import "./contenido/cards.css";
+@import "./contenido/card.css";
+@import "./contenido/card-imagen.css";
+@import "./contenido/titulo-ofertas.css";
+@import "./agregar-producto/agregar-producto.css";
+@import "./footer.css";
+@import"./galerias/carrucel.css";
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+:root{
+    --texto_menu:'Alata', sans-serif;
+    --texto_otro:'Space Mono', monospace;
+}
