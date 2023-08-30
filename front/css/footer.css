@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    background: url(/front/img/bg-footer.jpg);
+    background: url(../img/bg-footer.jpg);
     padding: 40px;
     justify-content: space-around;
     align-items: center;

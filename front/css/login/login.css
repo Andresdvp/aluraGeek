@@ -4,7 +4,7 @@
 }
 
 body{
-    background:  url(/front/img/bg-login.jpg)  no-repeat;
+    background:  url(../../img/bg-login.jpg)  no-repeat;
     background-repeat: no-repeat;
     background-size: cover;   
 }
