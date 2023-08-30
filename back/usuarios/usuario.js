@@ -14,7 +14,7 @@ login.addEventListener("submit", (evento) => {
     productoServices.verUsuarios().then((data) => {
         data.forEach(({ email, password }) => {
             if (email === logemail && password === logpassword) {
-            window.location.href="/front/pages/paginaInicio.html";
+            window.location.href="../../front/pages/paginaInicio.html";
             }
         });
     }).catch((err) => {
