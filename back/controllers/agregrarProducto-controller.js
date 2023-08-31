@@ -16,8 +16,8 @@ formularioAgregarProducto.addEventListener("submit",(evento)=>{
        if (categoria == 0) {
         alert("ingrese una categoria porfavor")
        }
-        window.location.href="/front/pages/producto-agregado.html";
+        window.location.href="../../front/pages/producto-agregado.html";
 
     }).catch((err)=>console.log(err));
 
-});
+}); 

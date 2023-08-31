@@ -13,7 +13,7 @@ formularioRegistro.addEventListener("submit",(evento)=>{
 
 
     productoServices.crearUsuario(nombre,apellido,cedula,fechaNacimiento,email,password).then(()=>{
-        window.location.href="/front/pages/login.html";
+        window.location.href="../../front/pages/login.html";
 
     }).catch((err)=>console.log(err));
 
